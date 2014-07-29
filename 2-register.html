@@ -1,0 +1,78 @@
+<html>
+<body>
+	<center>
+		<h1>Register</h1>
+		<hr>
+		<form name="regForm" action="regok.html" method="post">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="username"/></td>
+				</tr>
+			    <tr>
+					<td>Password:</td>
+					<td><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+					<td>Confirm:</td>
+					<td><input type="password" name="pwconfirm"/></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" name="email"/></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><input type="radio" name="gender" value="1" checked/>Male<input type="radio" name="gender" value="0"/>Female</td>
+				</tr>
+				<tr>
+					<td>Education:</td>
+					<td>
+						<select name="education">
+							<option value="-1" selected>---Choice---</option>
+							<option value="3">Xiaoxue</option>
+							<option value="4">JPS</option>
+							<option value="5">High School</option>
+						</select>
+
+					</td>
+				</tr>
+				<tr>
+					<td>Hobby:</td>
+					<td><input type="checkbox" name="hobby" value="reading"/>Reading
+					<input type="checkbox" name="hobby" value="swimming"/>Swimming
+					<input type="checkbox" name="hobby" value="mov"/>Film
+					<input type="checkbox" name="hobby" value="surfnet"/>Surfing
+					<input type="checkbox" name="hobby" value="music"/>Music
+					<input type="checkbox" name="hobby" value="shopping"/>Shopping
+					<input type="checkbox" name="hobby" value="other"/>Other
+
+					</td>
+
+				</tr>
+				<tr>
+					<td>Con:</td>
+					<td><textarea rows="10" cols="50">
+						ConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConConCon
+					</textarea>
+				</td>
+				</tr>
+				<tr>
+					<td>Yes</td>
+					<td><input type="checkbox" name="accept" checked></td>
+
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="register">
+						<input type="reset" value="cancle">
+					</td>
+				</tr>
+				<tr>
+					<td>Upload</td>
+					<td><input type="file" name="pic"/></td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>
